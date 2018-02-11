@@ -104,6 +104,7 @@ brew install zopfli
 #my stuff
 brew install nmap
 brew install wakeonlan
+brew install byobu
 
 
 # Remove outdated versions from the cellar.
