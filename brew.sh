@@ -105,6 +105,7 @@ brew install zopfli
 brew install nmap
 brew install wakeonlan
 brew install byobu
+brew install keychain
 
 
 # Remove outdated versions from the cellar.
