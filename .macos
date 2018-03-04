@@ -22,6 +22,9 @@ sudo scutil --set HostName "maccy"
 sudo scutil --set LocalHostName "maccy"
 sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName -string "maccy"
 
+# Disabling AirDrop
+ defaults write com.apple.NetworkBrowser DisableAirDrop -bool YES
+
 # Set standby delay to 24 hours (default is 1 hour)
 sudo pmset -a standbydelay 86400
 
