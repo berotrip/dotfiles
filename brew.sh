@@ -42,9 +42,9 @@ brew install wget --with-iri
 
 # Install more recent versions of some macOS tools.
 brew install vim --with-override-system-vi
-brew install homebrew/dupes/grep
-brew install homebrew/dupes/openssh
-brew install homebrew/dupes/screen
+#brew install homebrew/dupes/grep
+#brew install homebrew/dupes/openssh
+#brew install homebrew/dupes/screen
 brew install homebrew/php/php56 --with-gmp
 
 # Install font tools.
@@ -97,9 +97,9 @@ brew install speedtest_cli
 brew install ssh-copy-id
 brew install testssl
 brew install tree
-brew install vbindiff
-brew install webkit2png
-brew install zopfli
+#brew install vbindiff
+#brew install webkit2png
+#brew install zopfli
 
 #my stuff
 brew install nmap
